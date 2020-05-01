@@ -4,15 +4,8 @@ Android Persian Calendar [![CircleCI](https://circleci.com/gh/ebraminio/DroidPer
 تقویم ساده، رایگان و آزاد اندروید به همراه ویجت و حمایت از DashClock<br />
 برای دریافت و نصب بر برگهٔ releases در بالای صفحه کلیک کنید.</div>
 
-Download
------------------------------
-<ul>
-    <li> <a href="https://play.google.com/store/apps/details?id=comeback.persiancalendar" >Google Play</a> </li>
-    <li> <a href="http://cafebazaar.ir/app/comeback.persiancalendar" >Bazaar</a> </li>
-    <li> <a href="https://f-droid.org/app/comeback.persiancalendar" >F-Droid</a> </li>
-    <li> <a href="https://github.com/ebraminio/DroidPersianCalendar/releases/" >Github</a> </li>
-</ul>
-
+ 
+ 
 License
 -----------------------------
 Copyright (C) 2012-2018  ebrahim@gnu.org
