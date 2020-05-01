@@ -1,0 +1,52 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+
+        maven { url 'https://maven.google.com' }
+
+        google()
+        jcenter()
+        mavenCentral()
+
+        jcenter{ url "http://jcenter.bintray.com/" }
+//        maven { url "https://maven.google.com" }
+        mavenLocal()
+
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.1'
+
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+
+
+
+        // You can use google() for high gradle versions
+//        maven {url 'https://maven.google.com/' }
+
+        maven {
+            url "https://maven.google.com" }
+        jcenter{
+            url "http://jcenter.bintray.com/" }
+
+        // You can use google() for high gradle versions
+
+        mavenCentral()
+        maven {
+            url "https://jitpack.io"
+        }
+
+        maven {
+            url 'https://repository.cheshmak.me'
+        }
+        maven {
+            url 'https://dl.bintray.com/tapsellorg/maven'
+        }
+    }
+
+}

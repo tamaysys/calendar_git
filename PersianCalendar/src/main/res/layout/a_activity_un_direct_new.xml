@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~   Copyright 2015 Azmeer Raja
+  ~
+  ~         Licensed under the Apache License, Version 2.0 (the "License");
+  ~         you may not use this file except in compliance with the License.
+  ~         You may obtain a copy of the License at
+  ~
+  ~             http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~         Unless required by applicable law or agreed to in writing, software
+  ~         distributed under the License is distributed on an "AS IS" BASIS,
+  ~         WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~         See the License for the specific language governing permissions and
+  ~         limitations under the License.
+  -->
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+
+	android:baselineAligned="true"
+	android:orientation="vertical"
+
+
+
+	android:layoutDirection="ltr"
+>
+
+	<LinearLayout
+		android:id="@+id/ud_push_image_back"
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+
+		android:gravity="center">
+
+		<LinearLayout
+			android:id="@+id/ud_push_white"
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+
+			android:gravity="center">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_gravity="center_horizontal">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:text="متن پیام"
+					android:id="@+id/new_maintext"
+					android:layout_gravity="center"
+					android:layout_weight="0.6"
+					android:paddingLeft="30dp"
+					android:gravity="center"
+					android:paddingRight="30dp"/>
+
+                <TextView
+					android:layoutDirection="rtl"
+					android:id="@+id/tt"
+					android:textColor="@color/md_divider_black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    />
+
+            </LinearLayout>
+
+			<LinearLayout
+                android:layout_weight="0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="34dp"
+                    android:id="@+id/un_btn_no"
+					android:onClick="ud_btnno"
+                    android:background="@drawable/a_button_no"
+                    />
+
+                <Button
+                    android:layout_width="240dp"
+                    android:layout_height="39dp"
+                    android:id="@+id/un_btn_ok"
+                    android:background="@drawable/a_button_ok"
+					android:onClick="ud_btnok"
+                    android:layout_marginLeft="15dp"/>
+            </LinearLayout>
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>
