@@ -2,7 +2,11 @@ Android Persian Calendar [![CircleCI](https://circleci.com/gh/ebraminio/DroidPer
 =============================
 <div lang="fa" dir="rtl">تقویم فارسی اندروید<br />
 تقویم ساده، رایگان و آزاد اندروید به همراه ویجت و حمایت از DashClock<br />
-برای دریافت و نصب بر برگهٔ releases در بالای صفحه کلیک کنید.</div>
+برای دریافت و نصب بر برگهٔ releases در بالای صفحه کلیک کنید.
+سورس اصلی برنامه در لینک زیر می آید
+https://github.com/ebraminio/DroidPersianCalendar
+
+</div>
 
  
  
